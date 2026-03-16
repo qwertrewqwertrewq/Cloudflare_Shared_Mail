@@ -1,0 +1,6 @@
+/p/* /list/:splat 302
+/verify/* /index.html 200
+/list/* /index.html 200
+/admin /index.html 200
+/admin/* /index.html 200
+/* /index.html 200

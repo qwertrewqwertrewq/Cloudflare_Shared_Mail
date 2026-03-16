@@ -1,0 +1,22 @@
+{
+  "name": "cfmail-platform",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy:worker": "wrangler deploy",
+    "dev:worker": "wrangler dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "deploy:pages": "npm --prefix frontend run build && wrangler pages deploy frontend/dist --project-name cfmail-pages",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "postal-mime": "^2.4.3"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260301.0",
+    "typescript": "^5.8.2",
+    "wrangler": "^4.8.0"
+  }
+}
