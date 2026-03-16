@@ -1,4 +1,6 @@
-# CFMail (Cloudflare Mail Worker + Vue3 Frontend)
+# Cloudflare_Shared_Mail
+
+仓库地址：`https://github.com/qwertrewqwertrewq/Cloudflare_Shared_Mail.git`
 
 用于搭建公用邮件接收平台：
 
@@ -36,8 +38,8 @@
 2. 克隆你自己的仓库：
 
 ```bash
-git clone https://github.com/<your-username>/cfmail.git
-cd cfmail
+git clone https://github.com/qwertrewqwertrewq/Cloudflare_Shared_Mail.git
+cd Cloudflare_Shared_Mail
 ```
 
 3. 安装依赖：
